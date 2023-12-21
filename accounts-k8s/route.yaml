@@ -1,0 +1,14 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: accounts-api
+  name: accounts-api
+spec:
+  port:
+    targetPort: 1880
+  to:
+    kind: Service
+    name: accounts-api
+    weight: 100
+  wildcardPolicy: None
