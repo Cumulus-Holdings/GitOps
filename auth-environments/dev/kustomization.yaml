@@ -2,3 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - ../../auth-k8s/
+images:
+- digest: sha256:0f392e2e01912f6c413e8f66130464a0659a60e73cf28da36a0db98018bea182
+  name: quay.io/rh-ee-srehman/cumulus-auth
+  newName: quay.io/rh-ee-srehman/cumulus-auth
