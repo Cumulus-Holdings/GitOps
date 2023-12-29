@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../accounts-k8s/
 images:
-- digest: sha256:2e37bdc9a2598ef8da486f1454397e8acf6dd7b2e23bbdeddaf45f3096d0d187
+- digest: sha256:1e9d61a7139de887c1330773fe61960bf392366accb4ca465046810ab870bab6
   name: quay.io/rh-ee-srehman/cumulus-account
   newName: quay.io/rh-ee-srehman/cumulus-account
