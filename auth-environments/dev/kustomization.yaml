@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../auth-k8s/
 images:
-- digest: sha256:394f636c7a43357360b87590df9c5b417ddf2ceb80004a6806bd1b4e2da4304a
+- digest: sha256:750ecd6d1a90b2bf6705d29b2a5346f7b03fffc1ca1cbc810bdb1875b943f0d6
   name: quay.io/rh-ee-srehman/cumulus-auth
   newName: quay.io/rh-ee-srehman/cumulus-auth
